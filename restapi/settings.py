@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'restapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'rest_api',
-        'USER':'postgres',
-        'PASSWORD':'123456',
-        'HOST':'127.0.0.1',
+        'NAME':'rest_api_qzkp',
+        'USER':'rest_api_qzkp_user',
+        'PASSWORD':'izO9LxEAwehRsB2afbzXNVHhWMSCvx5l',
+        'HOST':'dpg-cm6pqenqd2ns73evjkc0-a.oregon-postgres.render.com',
         'PORT':'5432',
     }
 }
